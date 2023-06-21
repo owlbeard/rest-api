@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.working {
+  background: url('/public/working.jpeg');
+}
+
+.resting {
+  background: url('/public/resting.jpeg');
+}
+
+.shade {
+  text-shadow: #000 1px 0 10px;
+}
+
+.white {
+  filter: invert(100%) sepia(0%) saturate(16%) hue-rotate(359deg)
+    brightness(103%) contrast(101%);
+}
