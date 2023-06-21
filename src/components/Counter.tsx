@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { clearInterval, setInterval } from 'worker-timers';
 import { motion as m } from 'framer-motion';
 import Alert from '/notif.wav';
 import AlertTwo from '/notif2.wav';
