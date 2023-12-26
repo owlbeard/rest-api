@@ -16,8 +16,8 @@ audioTwo.src = AlertTwo;
 
 export default function Counter() {
   const [rest, setRest] = useState(30);
-  const [seconds, setSeconds] = useState(0);
-  const [minutes, setMinutes] = useState(0);
+  const [seconds, setSeconds] = useState(57);
+  const [minutes, setMinutes] = useState(29);
   const [restSeconds, setRestSeconds] = useState(0);
   const [restMinutes, setRestMinutes] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
@@ -69,13 +69,13 @@ export default function Counter() {
   };
 
   const restTimer = () => {
-    if (seconds === 59) {
-      setRestMinutes((prevMinute) => prevMinute + 1);
+    if (restSeconds === 59) {
+      setRestMinutes((prevRestMinute) => prevRestMinute + 1);
       setRestSeconds(0);
       return;
     }
 
-    setRestSeconds((prevSecond) => prevSecond + 1);
+    setRestSeconds((prevRestSecond) => prevRestSecond + 1);
   };
 
   // Method to start and stop timer
