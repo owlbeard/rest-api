@@ -5,7 +5,7 @@ export default function Header() {
         REST & API(Actively Prevent Inflammation)
       </h1>
       <p className="shade text-2xl font-semibold">
-        Every 30 minutes get up, stretch & prevent inflammation!
+        Every 25 minutes get up, stretch & prevent inflammation! 25-5 Pomodoro Technique Recommended!
       </p>
     </header>
   );
