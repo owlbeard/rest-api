@@ -24,7 +24,7 @@ export default function Counter() {
   const [isResting, setIsResting] = useState(false);
 
   useEffect(() => {
-    if (minutes === 30) {
+    if (minutes === 25) {
       setIsRunning(false);
       setSeconds(0);
       setMinutes(0);
